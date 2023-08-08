@@ -1,7 +1,7 @@
 let resumeData = {
   "imagebaseurl": "https://villegust.github.io/portfolio/",
   "name": "Vilhelm Gustavsson",
-  "role": "Software development student",
+  "role": "High School Software Engineer",
   "gmail": "ville.gust@gmail.com",
   "skypeid": "Your skypeid",
   "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, just relax or simply play games in my free time.",
@@ -17,7 +17,7 @@ let resumeData = {
       "className": "fa fa-github"
     },
   ],
-  "aboutme": " My name is Vilhelm Gustavsson and I am a software development student from Sweden. During my passed three years in school I have primarly worked on project using programming languages such as python, html, css and javascript. I am currently studying a fourth year of high school at NTI where I get to work on projects in groups using Scrum.",
+  "aboutme": " My name is Vilhelm Gustavsson and I am a High School Software Engineer from Sweden. During my passed three years in school I have primarly worked on project using programming languages such as python, html, css and javascript. I have also finished studying a fourth year of high school at NTI where I got to work on projects in groups using Scrum.",
   "address": "Sweden",
   "website": "https://villegust.github.io/portfolio/",
   "education": [
