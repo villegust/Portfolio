@@ -1,5 +1,5 @@
 let resumeData = {
-  "imagebaseurl": "https://gustavsson123.github.io/portfolio/",
+  "imagebaseurl": "https://villegust.github.io/portfolio/",
   "name": "Vilhelm Gustavsson",
   "role": "Software development student",
   "gmail": "ville.gust@gmail.com",
@@ -19,15 +19,15 @@ let resumeData = {
   ],
   "aboutme": " My name is Vilhelm Gustavsson and I am a software development student from Sweden. During my passed three years in school I have primarly worked on project using programming languages such as python, html, css and javascript. I am currently studying a fourth year of high school at NTI where I get to work on projects in groups using Scrum.",
   "address": "Sweden",
-  "website": "https://gustavsson123.github.io/portfolio/",
+  "website": "https://villegust.github.io/portfolio/",
   "education": [
     {
       "UniversityName": "NTI Gymnasiet Uppsala",
       "specialization": "High School Software Engineer",
       "MonthOfStart": "Aug",
       "YearOfStart": "2022",
-      "MonthOfPassing": "Ongoing",
-      "YearOfPassing": "",
+      "MonthOfPassing": "Jun",
+      "YearOfPassing": "2023",
       "Achievements": "Link to the program",
       "link": "https://www.ntigymnasiet.se/program/mjukvarudesign/uppsala/"
     },
@@ -47,9 +47,9 @@ let resumeData = {
       "CompanyName": "STUNS",
       "specialization": "Developer",
       "MonthOfStart": "Feb",
-      "YearOfStart": "2022",
+      "YearOfStart": "2023",
       "MonthOfLeaving": "Apr",
-      "YearOfLeaving": "2022",
+      "YearOfLeaving": "2023",
       "Achievements": "Internship for my education",
     }
   ],
@@ -117,7 +117,7 @@ let resumeData = {
   ],
   "testimonials": [
     {
-      "description": "/images/portfolio/cert.png",
+      "description": "images/portfolio/cert.png",
       "link": "https://www.credly.com/badges/b4bb2aa5-18fe-4597-8c2f-5468da354551/public_url"
     }
   ]
