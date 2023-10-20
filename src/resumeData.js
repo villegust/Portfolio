@@ -88,25 +88,28 @@ let resumeData = {
       "name": "Florist Blåklinten",
       "description": "This project was made for a made up Florist company. It was made with HTML, CSS and JavaScript.",
       "imgurl": "images/portfolio/project1.png",
-      "link": "https://ntig-uppsala.github.io/florist-blaklinten/"
+      "link": "https://ntig-uppsala.github.io/florist-blaklinten/",
+      "linkGithub" : "https://github.com/NTIG-Uppsala/florist-blaklinten"
     },
     {
       "name": "Pizzeria Raffiki",
       "description": "This project was made for a made up Pizzeria. It was made with HTML, CSS and JavaScript.",
       "imgurl": "images/portfolio/project2.png",
-      "link": "https://ntig-uppsala.github.io/pizzeria-rafiki/"
+      "link": "https://ntig-uppsala.github.io/pizzeria-rafiki/",
+      "linkGithub" : "https://github.com/NTIG-Uppsala/pizzeria-rafiki"
     },
     {
       "name": "Admin Närvaro",
       "description": "This project is made for NTI Uppsala. It was made with NextJS, TaildwindCSS, express and MongoDB.",
       "imgurl": "images/portfolio/project3.png",
-      "link": "https://narvaro.ntig.net/"
+      "link": "https://narvaro.ntig.net/",
+      "linkGithub": "https://github.com/NTIG-Uppsala/admin-narvaro"
     },
     {
       "name": "POS project",
       "description": "This project is made based on real POS systems. It was made with C#, .NET and the framework WinForms.",
       "imgurl": "images/portfolio/project4.png",
-      "link": "https://github.com/NTIG-Uppsala/hotell-kassasystem"
+      "linkGithub": "https://github.com/NTIG-Uppsala/hotell-kassasystem"
     },
     {
       "name": "Stuns Maps Project",
