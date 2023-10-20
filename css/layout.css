@@ -671,7 +671,7 @@ ul#nav li.current a {
    transition: all 0.3s ease-in-out;
 }
 
-.portfolio-item .item-wrap a {
+.portfolio-item .item-wrap {
    display: block;
    cursor: pointer;
 }
@@ -694,6 +694,30 @@ ul#nav li.current a {
    transition: opacity 0.3s ease-in-out;
 
    background: url(../images/overlay-bg.png) repeat;
+}
+
+.portfolio-item .item-wrap .alignment{
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+}
+
+.portfolio-item .item-wrap .alignment .links{
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.portfolio-item .item-wrap .alignment .center-align {
+   display: flex;
+   justify-content: center;
+}
+
+.portfolio-item .item-wrap .alignment .links a{
+   color: white;
+}
+
+.portfolio-item .item-wrap .alignment .links a:hover{
+   color: grey;
 }
 
 .portfolio-item .item-wrap .link-icon {
@@ -723,7 +747,10 @@ ul#nav li.current a {
 
 .portfolio-item .item-wrap img {
    vertical-align: bottom;
+   width: fit-content;
+   height: 170px;
 }
+
 
 .portfolio-item .portfolio-item-meta {
    padding: 18px
@@ -1089,7 +1116,7 @@ call-to-action .button {
    margin: 0 6px;
    display: inline-block;
    zoom: 1;
-   *display: inline;
+   display: inline;
 }
 
 .flex-control-paging li a {
