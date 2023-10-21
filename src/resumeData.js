@@ -116,7 +116,14 @@ let resumeData = {
       "description": "This project is made for STUNS. It was made with NextJS with typescript and a MySQL database.",
       "imgurl": "images/portfolio/project5.png",
       "link": "https://maps.stuns.se/"
-    }
+    },
+    {
+      "name": "Car rental project",
+      "description": "This project is rental car website. It is made in react and scss",
+      "imgurl": "images/portfolio/project6.png",
+      "link" : "https://exclusive-rental-cars.vercel.app/",
+      "linkGithub": "https://github.com/villegust/car-rental"
+    },
   ],
   "testimonials": [
     {
