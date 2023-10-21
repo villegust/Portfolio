@@ -37,6 +37,10 @@ e. Others
       HTML5 Doctor Reset - html5doctor.com/html-5-reset-stylesheet/
 /* ------------------------------------------------------------------ */
 
+.smoothscroll{
+   scroll-behavior: smooth;
+}
+
 html,
 body,
 div,

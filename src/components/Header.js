@@ -1,12 +1,39 @@
 import React, { Component } from 'react';
 export default class Header extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      scrollBackground: false,
+    };
+  }
+
+  componentDidMount() {
+    // Add an event listener to detect scrolling
+    window.addEventListener('scroll', this.handleScroll);
+  }
+
+  componentWillUnmount() {
+    // Clean up the event listener when the component unmounts
+    window.removeEventListener('scroll', this.handleScroll);
+  }
+
+  handleScroll = () => {
+    if (window.scrollY > 200) {
+      this.setState({ scrollBackground: true });
+    } else {
+      this.setState({ scrollBackground: false });
+    }
+  };  
+
   render() {
     let resumeData = this.props.resumeData;
+    const { scrollBackground } = this.state;
     return (
       <React.Fragment>
 
         <header id="home">
-          <nav id="nav-wrap">
+          <nav id="nav-wrap" className={scrollBackground ? "navBg" : ""}>
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
             <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
             <ul id="nav" className="nav">
