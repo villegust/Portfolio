@@ -704,6 +704,14 @@ ul#nav li.current a {
    bottom: 0;
    width: 100%;
 }
+.portfolio-item .item-wrap .alignment a{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.portfolio-item .item-wrap .alignment a i{
+   margin-right: 0.75rem;
+}
 
 .portfolio-item .item-wrap .alignment .links{
    display: flex;
@@ -720,7 +728,7 @@ ul#nav li.current a {
 }
 
 .portfolio-item .item-wrap .alignment .links a:hover{
-   color: grey;
+   color: rgb(194, 194, 194);
 }
 
 .portfolio-item .item-wrap .link-icon {

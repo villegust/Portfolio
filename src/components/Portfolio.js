@@ -21,11 +21,13 @@ export default class Porfolio extends Component {
                             </div>
                             <div className="alignment">
                               <div className={`links ${!item.link || !item.linkGithub ? "center-align" : ""}`}>
-                                <a href={item.link} target='_blank' rel="noopener noreferrer">
-                                  {item.link ? "Website" : ""}
-                                </a>
                                 <a href={item.linkGithub} target='_blank' rel="noopener noreferrer">
+                                  {item.linkGithub ? <i className='fa fa-github'/> : ""}
                                   {item.linkGithub ? "Github" : ""}
+                                </a>
+                                <a href={item.link} target='_blank' rel="noopener noreferrer">
+                                  {item.link ? <i className="fa fa-external-link" /> : ""}
+                                  {item.link ? "Live" : ""}
                                 </a>
                               </div>
                             </div>
