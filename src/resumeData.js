@@ -85,6 +85,33 @@ let resumeData = {
   ],
   "portfolio": [
     {
+      "name": "Twitter clone",
+      "description": "This project is a twitter clone. The frontend is coded in NextJs using typescript and scss. The backend is written with prisma and mongodb",
+      "imgurl": "images/portfolio/project7.png",
+      "link" : "https://twitter-clone-seven-pi.vercel.app/",
+      "linkGithub": "https://github.com/villegust/clone-twitter"
+    },
+    {
+      "name": "Car rental project",
+      "description": "This project is rental car website. It is made in react and scss",
+      "imgurl": "images/portfolio/project6.png",
+      "link" : "https://exclusive-rental-cars.vercel.app/",
+      "linkGithub": "https://github.com/villegust/car-rental"
+    },
+    {
+      "name": "Stuns Maps Project",
+      "description": "This project is made for STUNS. It was made with NextJS with typescript and a MySQL database.",
+      "imgurl": "images/portfolio/project5.png",
+      "link": "https://maps.stuns.se/"
+    },
+    {
+      "name": "Admin Närvaro",
+      "description": "This project is made for NTI Uppsala. It was made with NextJS, TaildwindCSS, express and MongoDB.",
+      "imgurl": "images/portfolio/project3.png",
+      "link": "https://narvaro.ntig.net/",
+      "linkGithub": "https://github.com/NTIG-Uppsala/admin-narvaro"
+    },
+    {
       "name": "Florist Blåklinten",
       "description": "This project was made for a made up Florist company. It was made with HTML, CSS and JavaScript.",
       "imgurl": "images/portfolio/project1.png",
@@ -99,31 +126,13 @@ let resumeData = {
       "linkGithub" : "https://github.com/NTIG-Uppsala/pizzeria-rafiki"
     },
     {
-      "name": "Admin Närvaro",
-      "description": "This project is made for NTI Uppsala. It was made with NextJS, TaildwindCSS, express and MongoDB.",
-      "imgurl": "images/portfolio/project3.png",
-      "link": "https://narvaro.ntig.net/",
-      "linkGithub": "https://github.com/NTIG-Uppsala/admin-narvaro"
-    },
-    {
       "name": "POS project",
       "description": "This project is made based on real POS systems. It was made with C#, .NET and the framework WinForms.",
       "imgurl": "images/portfolio/project4.png",
       "linkGithub": "https://github.com/NTIG-Uppsala/hotell-kassasystem"
     },
-    {
-      "name": "Stuns Maps Project",
-      "description": "This project is made for STUNS. It was made with NextJS with typescript and a MySQL database.",
-      "imgurl": "images/portfolio/project5.png",
-      "link": "https://maps.stuns.se/"
-    },
-    {
-      "name": "Car rental project",
-      "description": "This project is rental car website. It is made in react and scss",
-      "imgurl": "images/portfolio/project6.png",
-      "link" : "https://exclusive-rental-cars.vercel.app/",
-      "linkGithub": "https://github.com/villegust/car-rental"
-    },
+    
+    
   ],
   "testimonials": [
     {
